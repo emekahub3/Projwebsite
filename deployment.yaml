@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-       - name: nginx
+      - name: nginx
         image: cezeilo/project2:latest
         ports:
         - containerPort: 80
